@@ -25,13 +25,13 @@ header {
   color: white;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  height: 75px;
 }
 
 .header-left {
   margin: 0 0 0 14%;
   display: flex;
-  
+  align-items: center;
 }
 
 .header-left button {
@@ -39,18 +39,37 @@ header {
     border-style: hidden;
     height: 20px;
     width: 40px;
-    margin: 35px 0 0 5px;
     color: white;
+    text-align: center;
 }
-header p {
+header a {
   margin: 30px 14% 0 0;
   padding: 0px;
   height: 30px;
+  color: white;
+  text-decoration: none;
 }
 
 header p:hover{
   text-decoration: underline;
   cursor: pointer;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 0;
+}
+
+.content-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.img-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
 }
 
 main {
