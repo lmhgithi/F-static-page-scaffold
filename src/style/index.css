@@ -5,7 +5,8 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+		BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
   font-size: 16px;
 }
 
@@ -49,14 +50,13 @@ header p {
 
 header p:hover{
   text-decoration: underline;
+  cursor: pointer;
 }
 
 main {
-	font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
-		BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
   background-color: #e9ebee;
   margin: 0px;
-  padding: 5% 15% 20% 15%;
+  padding: 20px 15% 20% 15%;
   height: 100%;
 }
 
@@ -75,16 +75,11 @@ figure {
   background-color: white;
   padding: 30px;
   text-align: center;
+  margin: 0;
 }
 .left-figure {
-  margin: 0;
-  margin-right:10px;
+  margin-right:20px;
 }
-.right-figure {
-  margin: 0;
-  margin-left:10px;
-}
-
 
 figure button {
   margin-top: 50px;
